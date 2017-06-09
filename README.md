@@ -101,7 +101,7 @@ emoji: {1f469, 1f3ff, 200d 1f692}
 ```
 
 ## :books: 絵文字データセット
-絵文字の codePoint は下記の values.txt に定義されているものを使います。  
+絵文字の codePoint は EmojiCodePoints.txt に定義されているものを使います。  
 ちなみにこれは https://www.google.com/get/noto/help/emoji/ の View more emoji に掲載のものに準拠しています。  
 例えば Grinning Face の絵文字は {0x1F600} で、Man Police Officer の絵文字は {0x1F46E, 0x200D, 0x2642} です。  
 絵文字の名前を出力する必要はありません。必要なのは絵文字を構成する codePoint です。  
