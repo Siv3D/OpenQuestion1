@@ -132,5 +132,6 @@ const std::vector<std::vector<std::uint32_t>> emojiCodePoints =
     #include "EmojiCodePoints.txt"
 };
 ```
-とすると便利です。
+とすると便利です。  
+また、実行中にデータセットの追加や削除はしません。
 
