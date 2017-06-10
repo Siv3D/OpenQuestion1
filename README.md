@@ -129,7 +129,7 @@ emoji: {1f469, 1f3ff, 200d 1f692}
 ```cpp
 const std::vector<std::vector<std::uint32_t>> emojiCodePoints =
 {
-    # include "EmojiCodePoints.txt"
+    #include "EmojiCodePoints.txt"
 };
 ```
 とすると便利です。
