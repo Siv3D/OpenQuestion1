@@ -124,7 +124,7 @@ emoji: {1f469, 1f3ff, 200d 1f692}
 - 実装案や質問は本リポジトリの Issue または [@Reputeless](https://twitter.com/Reputeless) へのリプライでお願いいたします
 - 実装が採用された場合は、Siv3D のソースコードの該当箇所にクレジットを掲載させていただきます
 
-## :notebook: 補足
+## :notebook: 補足 1
 データセットの読み込みは
 ```cpp
 const std::vector<std::vector<std::uint32_t>> emojiCodePoints =
@@ -135,3 +135,12 @@ const std::vector<std::vector<std::uint32_t>> emojiCodePoints =
 とすると便利です。  
 また、実行中にデータセットの追加や削除はしません。
 
+## :notebook: 補足 2
+値でソートした codePoints データセットを用意しました。
+```cpp
+const std::vector<std::vector<std::uint32_t>> emojiCodePoints =
+{
+    #include "EmojiCodePoints_SortedByValue.txt"
+};
+```
+で利用可能です。
